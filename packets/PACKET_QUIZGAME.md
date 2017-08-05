@@ -1,0 +1,3 @@
+**MsgQuizGame:** This packet was never implemented, or cannot be discovered within our current mediums of research. It can be assumed that this packet was dropped in favor of the [[MsgQuiz]] and [[MsgQuizSponsor]] packets, both of which interact with the Quiz class in the client.
+
+Contributed by [[http://chained2pvp.com/user/8-spirited/|Spirited]]

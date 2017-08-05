@@ -1,0 +1,62 @@
+**MsgNationality Country ID:** This enumeration type is defined for indexing entries from the Nationality.ini file, sent with the [[MsgNationality]] packet. The default values for the unmodified game client can be found below. Contributed by [[http://chained2pvp.com/profile/12-sedat/|Sedat]].
+
+<code csharp>
+/// <summary>
+/// Enumeration of countries.
+/// </summary>
+public enum Country
+{
+    UnitedArabEmirates = 1,
+    Argentine,
+    Australia,
+    Belgium,
+    Brazil,
+    Canada,
+    China,
+    Colombia,
+    CostaRica,
+    CzechRepublic,
+    Conquer,
+    Germany,
+    Denmark,
+    DominicanRepublic,
+    Egypt,
+    Spain,
+    Estland,
+    Finland,
+    France,
+    UnitedKingdom,
+    HongKong,
+    Indonesia,
+    India,
+    Israel,
+    Italy,
+    Japan,
+    Kuwait,
+    SriLanka,
+    Lithuania,
+    Mexico,
+    Macedonia,
+    Malaysia,
+    Netherlands,
+    Norway,
+    NewZealand,
+    Peru,
+    Philippines,
+    Poland,
+    PuertoRico,
+    Portugal,
+    Palestine,
+    Qatar,
+    Romania,
+    Russia,
+    SaudiArabia,
+    Singapore,
+    Sweden,
+    Thailand,
+    Turkey,
+    UnitedStates,
+    Venezuela,
+    Vietnam = 52
+}
+</code>

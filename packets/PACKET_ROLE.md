@@ -1,0 +1,3 @@
+**MsgRole:** This packet was never implemented, or cannot be discovered within our current mediums of research. It can be assumed that this packet was originally drafted to initialize the 3DRole class in the client, which controls the equipment set of the character. This was probably never implemented in favor of the [[MsgItemInfo]] and [[MsgPlayer]] packets (both which control equipment placement on the character).
+
+Contributed by [[http://chained2pvp.com/user/8-spirited/|Spirited]]
