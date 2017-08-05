@@ -1,4 +1,5 @@
 ItemInfoAction determines how the ItemInfo packet is being used.
+
         None = 0,
         AddItem =1,
         Trade = 2,

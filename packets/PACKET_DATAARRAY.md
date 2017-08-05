@@ -6,5 +6,5 @@
 |---|---|---|---|
 | 0 | UINT16 | Packet Length | 24 |
 | 2 | UINT16 | Packet Identifier | 2036 |
-| 4 | [[msgdataarrayactiontype|DataArrayActionType]] | Action | DataArrayActionType.Compose |
-| 5 | [INT32[]] | Items | 2 111 112  |
+| 4 | DataArrayActionType | Action | DataArrayActionType.Compose |
+| 5 | INT32[] | Items | 2 111 112  |

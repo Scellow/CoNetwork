@@ -3,10 +3,12 @@
 **Patch 5615:** Contributed by [[http://chained2pvp.com/user/8-spirited/|Spirited]]\\
 
 FIXME This packet requires verification, and remains untested.
+
 | Offset | Data Type | Description | Example |
 |---|---|---|---|
 | 0 | UINT16 | Packet Length (Assummed) | 12 |
 | 2 | UINT16 | Packet Identifier | 1350 |
 | 4 | UINT32 | Action (client only accepts 0) | 0 |
 | 8 | UINT32 | Message ID (client only accepts 10) | 10 |
+
 Notes: The packet length is unchecked by the client.

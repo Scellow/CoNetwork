@@ -1,6 +1,6 @@
 **MsgNationality Country ID:** This enumeration type is defined for indexing entries from the Nationality.ini file, sent with the [[MsgNationality]] packet. The default values for the unmodified game client can be found below. Contributed by [[http://chained2pvp.com/profile/12-sedat/|Sedat]].
 
-<code csharp>
+```c#
 /// <summary>
 /// Enumeration of countries.
 /// </summary>
@@ -59,4 +59,4 @@ public enum Country
     Venezuela,
     Vietnam = 52
 }
-</code>
+```

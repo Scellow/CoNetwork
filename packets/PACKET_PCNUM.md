@@ -8,4 +8,5 @@
 | 2 | UINT16 | Packet Identifier | 1100 |
 | 4 | UINT32 | Account Identity | 1000000 |
 | 8 | CHAR[40] | Mac Address | 0A0B0C0D0E0F |
+
 Notes: Client forces null terminator at offset 48 (byte). No other information is written to the packet past offset 48. If the mac address could not be retrieved, the mac address field will not be assigned. 

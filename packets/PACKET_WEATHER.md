@@ -10,4 +10,5 @@
 | 8 | UINT32 | Intensity (Range: 0 - 999) | 50 |
 | 12 | UINT32 | Direction (Range: 0 - 359) | 14 |
 | 16 | UINT32 | Color in ARGB (Default: 0x00FFFFFF) | 0xFFFFFF00 |
+
 Notes: This example produces a light rain shower.

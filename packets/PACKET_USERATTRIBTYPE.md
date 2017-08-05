@@ -1,5 +1,6 @@
 **MsgUserAttrib Types:**
 
+```
 HITPOINTS = 0,\\
 MAX_HITPOINTS = 1,\\
 MANA = 2,\\
@@ -38,3 +39,4 @@ UNKNOWN0 = 43,\\
 GUILD_BATTLEPOWER = 44,\\
 BOUND_CONQUER_POINTS = 45,\\
 SOUL_SHACKLE_TIMER = 54\\
+```

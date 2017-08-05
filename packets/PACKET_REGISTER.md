@@ -40,5 +40,6 @@
 | 74 | UINT16 | Character Class | 10 |
 | 76 | UINT32 | Character Identity | 1000000 |
 | 80 | CHAR[12] | Client MacAddress | 0A0027000000 |
+
 The rest of this packet is confirmed empty space (32 bytes).\\
 All "unused" fields are now not implemented in the client.
