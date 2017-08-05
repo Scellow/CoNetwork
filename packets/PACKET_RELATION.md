@@ -1,6 +1,7 @@
 **MsgRelation:** This packet is sent from the game server to the game client in newer client versions when sending requests. It is used to display relation data as well as battle power and level to verify a target's identity.
 
 **Patch 5517:** Contributed by [[http://chained2pvp.com/user/255-pro4never/|Pro4Never]]
+
 | Offset | Data Type | Description | Example |
 |---|---|---|---|
 | 0 | UINT16 | Packet Length | 32 |

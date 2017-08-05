@@ -1,6 +1,7 @@
 **MsgUserAttrib:** Updates the client screen with new status and data and also some character data to players on the screen.
 
 **Patch 5103:** Contributed by [[http://chained2pvp.com/profile/208-felipevieira/|Felipe Vieira]]
+
 | Offset | Data Type | Description | Example |
 |---|---|---|---|
 | 0 | UINT16 | Packet Length | 40 |

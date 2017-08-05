@@ -1,6 +1,7 @@
 **MsgTradeBuddyInfo** This packet is used to list information regarding trade partners. For actions related to adding/removing trade partners, reference MsgTradeBuddy
 
 **Patch 5517:** Contributed by [[http://chained2pvp.com/user/255-pro4never/|Pro4Never]]
+
 | Offset | Data Type | Description | Example |
 |---|---|---|---|
 | 0 | UINT16 | Packet Length | 34 |

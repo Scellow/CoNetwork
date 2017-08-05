@@ -1,6 +1,7 @@
 **MsgPlayer:** This packet is sent to the observing clients on the map server when the actor enters their screen or an acting client observes the character as they enter its screen. The packet contains the player's character spawn information.
 
 **Patch 5103:** Contributed by [[http://chained2pvp.com/profile/208-felipevieira/|Felipe Vieira]]
+
 | Offset | Data Type | Description | Example |
 |---|---|---|---|
 | 0 | UINT16 | Packet Length | 100 + CharacterName + CharacterMate |

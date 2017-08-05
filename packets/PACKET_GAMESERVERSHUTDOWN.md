@@ -1,6 +1,7 @@
 **MsgGameServerShutdown:** This packet is sent by the game server to the client to request a polite disconnect. Sending this packet to the client causes an error state for terminating the server connection, and spawns a message stating that the game server was shutdown. The packet has very little processing in the client; therefore, all offsets and uses for this packet are currently unknown.
 
 **Patch 5615:** Contributed by [[http://chained2pvp.com/user/8-spirited/|Spirited]]\\
+
 FIXME This packet requires verification, and remains untested.
 | Offset | Data Type | Description | Example |
 |---|---|---|---|

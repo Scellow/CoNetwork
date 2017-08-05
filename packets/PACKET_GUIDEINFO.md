@@ -1,6 +1,7 @@
 **MsgGuideInfo:** This packet is sent between the client and game server. It contains information about a mentor and apprentices for a player. The packet is sent on login if the player has a mentor or when required by the client.
 
 **Patch 5103:** Contributed by [[http://chained2pvp.com/profile/208-felipevieira|Felipe Vieira]] and [[http://www.elitepvpers.com/forum/members/2727696--angelius-.html|Angelius]].
+
 | Offset | Data Type | Description | Example |
 |---|---|---|---|
 | 0 | UINT16 | Packet Length | 80 |

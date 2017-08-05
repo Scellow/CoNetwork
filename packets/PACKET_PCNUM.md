@@ -1,6 +1,7 @@
 **MsgPCNum:** This packet is sent during the client's authentication state. It's sent to the account server after the [[MsgConnectEx]] packet has been processed by the client. The packet contains the player's mac address for successful login recording.
 
 **Patch 5615:** Contributed by [[http://chained2pvp.com/user/8-spirited/|Spirited]]
+
 | Offset | Data Type | Description | Example |
 |---|---|---|---|
 | 0 | UINT16 | Packet Length | 52 |

@@ -1,6 +1,7 @@
 **MsgFriend:** This packet is sent from the game client to the game server and vise versa to process friend actions. It allows the server to process friend requests, acceptances, and deletions, and allows the client to display friends and enemies in the friends/enemies window. The "Level" parameter in this packet was replaced by the use of the [[MsgFriendInfo]] packet. Facebook incorporation in some (if not all) clients relies on a now broken implementation, and will not function correctly.
 
 **Patch 5615:** Contributed by [[http://chained2pvp.com/user/8-spirited/|Spirited]]
+
 | Offset | Data Type | Description | Example |
 |---|---|---|---|
 | 0 | UINT16 | Packet Length | 68 |

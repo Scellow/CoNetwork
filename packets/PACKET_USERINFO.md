@@ -1,6 +1,7 @@
 **MsgUserInfo:** This packet is sent from the game server to the game client. It contains character information from the game database, such as the name, body type, profession, and character attributes. In response to this packet, the client will send a character location request. Check the [[msgaction|MsgAction]] packet for details.
 
 **Patch 4330:** Contributed by [[http://chained2pvp.com/profile/8-spirited|Spirited]]
+
 | Offset | Data Type | Description | Example |
 |---|---|---|---|
 | 0 | UINT16 | Packet Length (61 + String List) | 83 |
@@ -30,6 +31,7 @@
 |  | CHAR[] | Spouse | None |
 
 **Patch 5165:** Contributed by [[http://chained2pvp.com/user/25-caparzo/|Caparzo]]
+
 | Offset | Data Type | Description | Example |
 |---|---|---|---|
 | 0 | UINT16 | Packet Length (87 + String List) | 110 |
@@ -59,6 +61,7 @@
 |  | CHAR[] | Wife Name | PlayerWife |
  
 **Patch 5615:** Contributed by [[http://chained2pvp.com/user/8-spirited/|Spirited]]
+
 | Offset | Data Type | Description | Example |
 |---|---|---|---|
 | 0 | UINT16 | Packet Length (122 + String List) | 130 |

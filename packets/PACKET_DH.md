@@ -1,6 +1,7 @@
 **MsgDH:** MsgDH defines TQ Digital Entertainment's transport wrapper for the DH key exchange and delivering the server's public key and initial DH parameter constants. This is the first step in the DH key exchange.
 
 **Patch 5635:** Contributed by [[http://chained2pvp.com/user/8-spirited/|Spirited]]
+
 | Offset | Data Type | Description | Example |
 |---|---|---|---|
 | 0 | CHAR[11] | Header Pad | ... |

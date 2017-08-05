@@ -3,6 +3,7 @@
 It is worth noting that it is very common for each 'Data' field to be broken into 2 UINT16 accessors to set 'high' and 'low' values.
 
 **Patch 5017:** Contributed by [[http://chained2pvp.com/user/255-pro4never/|Pro4Never]]
+
 | Offset | Data Type | Description | Example |
 |---|---|---|---|
 | 0 | UINT16 | Packet Length | 24 |
@@ -15,6 +16,7 @@ It is worth noting that it is very common for each 'Data' field to be broken int
 | 22 | [[msgactiontype|ActionType]] | Action | 137 |
 
 **Patch 5165:** Contributed by [[http://chained2pvp.com/user/255-pro4never/|Pro4Never]]
+
 | Offset | Data Type | Description | Example |
 |---|---|---|---|
 | 0 | UINT16 | Packet Length | 32 |
@@ -28,6 +30,7 @@ It is worth noting that it is very common for each 'Data' field to be broken int
 | 28 | UINT32 | Data3 | 123 |
 
 **Patch 5212:** Contributed by [[http://chained2pvp.com/user/255-pro4never/|Pro4Never]]
+
 | Offset | Data Type | Description | Example |
 |---|---|---|---|
 | 0 | UINT16 | Packet Length | 42 |
@@ -43,6 +46,7 @@ It is worth noting that it is very common for each 'Data' field to be broken int
 | 38 | UINT32 | Data5 | 123 |
 
 **Patch 5615:** Contributed by [[http://chained2pvp.com/user/8-spirited/|Spirited]]
+
 | Offset | Data Type | Description | Example |
 |---|---|---|---|
 | 0 | UINT16 | Packet Length | 38 |

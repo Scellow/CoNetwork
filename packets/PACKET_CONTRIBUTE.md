@@ -1,6 +1,7 @@
 **MsgContribute:** This packet is sent between the client and game server. It contains reward information for the player's contribution to helping apprentice players.
 
 **Patch 5103:** Contributed by [[http://chained2pvp.com/profile/208-felipevieira|Felipe Vieira]].
+
 | Offset | Data Type | Description | Example |
 |---|---|---|---|
 | 0 | UINT16 | Packet Length | 40 |

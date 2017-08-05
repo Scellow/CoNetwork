@@ -3,6 +3,7 @@
 **Security Warning**: The identity and additional data fields are passed from the account server; therefore, it is expected that the account server encrypts this information before sending it to the client. 
 
 **Patch 4330:** Contributed by [[http://chained2pvp.com/user/8-spirited/|Spirited]]\\
+
 Account Server:
 | Offset | Data Type | Description | Example |
 |---|---|---|---|
@@ -23,6 +24,7 @@ Game Server:
 | 16 | CHAR[12] | Language | English |
 
 **Patch 5615:** Contributed by [[http://chained2pvp.com/user/8-spirited/|Spirited]]\\
+
 Account Server:
 | Offset | Data Type | Description | Example |
 |---|---|---|---|

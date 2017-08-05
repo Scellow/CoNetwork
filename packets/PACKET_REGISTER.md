@@ -1,6 +1,7 @@
 **MsgRegister:** This packet is sent from the game client to the game server. It contains initial character information from the character creation screen, such as the name, body type, profession, and mac address. This information needs to be verified with the server to ensure that the name is not taken and contains valid characters, and that the body and profession are valid.
 
 **Patch 4330:** Contributed by [[http://chained2pvp.com/user/8-spirited/|Spirited]], [[http://chained2pvp.com/profile/395-vander/|Vander]]
+
 | Offset | Data Type | Description | Example |
 |---|---|---|---|
 | 0 | UINT16 | Packet Length | 60 |
@@ -13,6 +14,7 @@
 | 56 | UINT32 | Identity | 1000000 |
 
 **Patch 5165:** Contributed by [[http://chained2pvp.com/user/25-caparzo/|Caparzo]]
+
 | Offset | Data Type | Description | Example |
 |---|---|---|---|
 | 0 | UINT16 | Packet Length | 104 |
@@ -24,6 +26,7 @@
 | 60 | UINT16[6] | Client MacAddress | 00,10,5A,44,12,B5 |
 
 **Patch 5615:** Contributed by [[http://chained2pvp.com/user/8-spirited/|Spirited]]
+
 | Offset | Data Type | Description | Example |
 |---|---|---|---|
 | 0 | UINT16 | Packet Length | 124 |

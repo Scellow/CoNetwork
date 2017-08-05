@@ -1,6 +1,7 @@
 **MsgSynRecruitAdvertisingOpt:** This packet is used to interact with guild recruitment advertisements. It's a simple Action/ID type with limited functionality. 
 
 **Patch 5517** Contributed by [[http://chained2pvp.com/user/255-pro4never/|Pro4Never]]
+
 | Offset | Data Type | Description | Example |
 |---|---|---|---|
 | 0 | UINT16 | Packet Length | 16 |

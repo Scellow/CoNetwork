@@ -2,6 +2,7 @@
 is 52 (because it includes the authentication code, port, and IP address). The length of a rejection, 12. The authentication code and identity are XORed by 0x4321 in the original client; however, this method of "protection" will not suffice. The game server IP address cannot be a localhost address (127.x.x.x). Local network and public network addresses are accepted.
 
 **Patches 4274 - 4330:** Contributed by [[http://chained2pvp.com/user/8-spirited/|Spirited]]\\
+
 Acceptance Example:
 | Offset | Data Type | Description | Example |
 |---|---|---|---|
@@ -42,6 +43,7 @@ var MSGCONNECTEX_BANNED_ACCOUNT = []byte { // 该帐号被封号 (12)
 </code>
 
 **Patch 5635:** Contributed by [[http://chained2pvp.com/user/8-spirited/|Spirited]]\\
+
 Acceptance Example:
 | Offset | Data Type | Description | Example |
 |---|---|---|---|

@@ -1,6 +1,7 @@
 **MsgAccount:** This packet is sent during the client's authentication state. It's sent to the account server so that the password exchange can begin. It contains the account name and server from the client's input.
 
 **Patch 4330:** Contributed by [[http://chained2pvp.com/user/8-spirited/|Spirited]]
+
 | Offset | Data Type | Description | Example |
 |---|---|---|---|
 | 0 | UINT16 | Packet Length | 54 |
@@ -10,6 +11,7 @@
 | 36 | CHAR[16] | Server Name | Meteor |
 
 **Patch 5165:** Contributed by [[http://chained2pvp.com/user/25-caparzo/|Caparzo]]
+
 | Offset | Data Type | Description | Example |
 |---|---|---|---|
 | 0 | UINT16 | Packet Length | 276 |
@@ -19,6 +21,7 @@
 | 260 | CHAR[16] | Server Name | Meteor |
 
 **Patch 5635:** Contributed by [[http://chained2pvp.com/user/8-spirited/|Spirited]]
+
 | Offset | Data Type | Description | Example |
 |---|---|---|---|
 | 0 | UINT16 | Packet Length | 240 |

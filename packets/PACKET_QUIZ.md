@@ -1,6 +1,7 @@
 **MsgQuiz:** Displays the quiz show interface and handles questions and replies from players. 
 
 **Patch 5103:** Contributed by [[http://chained2pvp.com/profile/208-felipevieira/|Felipe Vieira]]
+
 | Offset | Data Type | Description | Example |
 |---|---|---|---|
 | 0 | UINT16 | Packet Length | 18 + String Lengths |

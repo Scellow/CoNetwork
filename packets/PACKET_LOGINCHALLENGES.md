@@ -1,6 +1,7 @@
 **MsgLoginChallengeS:** This packet is sent during the client's authentication state from the account server. The keys in this packet are from the password cipher, representing the salt and public ephemeral value. It's sent as a request for the password challenge response packet.
 
 **Patch 5635:** Contributed by [[http://chained2pvp.com/user/8-spirited/|Spirited]]
+
 | Offset | Data Type | Description | Example |
 |---|---|---|---|
 | 0 | UINT16 | Packet Length | 653 |

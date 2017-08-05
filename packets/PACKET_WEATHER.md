@@ -1,6 +1,7 @@
 **MsgWeather:** This packet is sent from the game server to the client for invoking weather on a map. This packet must be sent when the player changes maps; otherwise, the weather will be cleared by the client. 
 
 **Patch 5615:** Contributed by [[http://chained2pvp.com/user/8-spirited/|Spirited]]
+
 | Offset | Data Type | Description | Example |
 |---|---|---|---|
 | 0 | UINT16 | Packet Length | 20 |

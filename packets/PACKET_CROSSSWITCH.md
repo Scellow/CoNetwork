@@ -1,6 +1,7 @@
 **MsgCrossSwitch:** After sending this the server receives op 1015:60, reply with 1015:61. Switch guids can be below 4 billion but won't be correct.
 
 **Patch 5635:** Contributed by [[http://chained2pvp.com/profile/151-mentalis/|Mentalis]]
+
 | Offset | Data Type | Description | Example |
 |---|---|---|---|
 | 0 | UINT16 | Packet Length | |
