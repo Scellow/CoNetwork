@@ -4,11 +4,11 @@
 
 | Offset | Data Type | Description | S->C Example | C->S Example |
 |---|---|---|---|
-| 0 | UINT16 | Packet Length | 32 ||
-| 2 | UINT16 | Packet Identifier | 1012 ||
-| 4 | UINT32 | Character Identity | 1000000 ||
+| 0 | UINT16 | Packet Length | 32 |
+| 2 | UINT16 | Packet Identifier | 1012 |
+| 4 | UINT32 | Character Identity | 1000000 |
 | 8 | UINT32 | Timestamp | 0 | 1807831 |
-| 12 | BYTE[16] | Random Padding | random() ||
+| 12 | BYTE[16] | Random Padding | random() |
 | 28 | UINT32 | Character Name (2 Bytes) | 0 | 56925 |
 
 Notes: The timestamp field requires to be XORed by the Character Identity field before server processing of this packet. The character name (the first two bytes of the character name) has a similar requirement: XORed by 0x9823.
